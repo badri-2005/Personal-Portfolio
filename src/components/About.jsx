@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin,FaPhoneSquare } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill, BsPhone } from 'react-icons/bs'
+import download from '../assets/Badri-Resume.pdf'
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
                 <a href="tel:+918838271155" target='_blank'>
                 <FaPhoneSquare size={30} />
                 </a>
-                <a href="../public/Badri-Resume.pdf">
+                <a href="../public/Badri-Resume.pdf" download={download}>
                 <BsFillPersonLinesFill size={30} />
                 </a>
             </div>
