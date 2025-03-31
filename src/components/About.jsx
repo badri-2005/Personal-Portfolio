@@ -2,9 +2,11 @@ import React from 'react'
 import { FaGithub, FaLinkedin,FaPhoneSquare } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill, BsPhone } from 'react-icons/bs'
-import download from '../assets/Badri-Resume.pdf'
+import download from '/public/Badri-Resume.pdf'
 
 const About = () => {
+  console.log(download)
+
   return (
     <div name='about' className='h-screen w-full bg-gradient-to-b from-gray-800  to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-screen'>
