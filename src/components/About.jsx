@@ -2,10 +2,8 @@ import React from 'react'
 import { FaGithub, FaLinkedin,FaPhoneSquare } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill, BsPhone } from 'react-icons/bs'
-import download from 'Badri-Resume.pdf'
 
 const About = () => {
-  console.log(download)
 
   return (
     <div name='about' className='h-screen w-full bg-gradient-to-b from-gray-800  to-black text-white'>
@@ -31,7 +29,7 @@ const About = () => {
                 <a href="tel:+918838271155" target='_blank'>
                 <FaPhoneSquare size={30} />
                 </a>
-                <a href="/Badri-Resume.pdf" download={download}>
+                <a href="/Badri-Resume.pdf" download="Badri-Resume.pdf">
                 <BsFillPersonLinesFill size={30} />
                 </a>
             </div>
