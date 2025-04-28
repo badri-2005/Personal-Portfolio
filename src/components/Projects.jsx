@@ -3,6 +3,8 @@ import finquest from '../assets/Projects/finquest.png'
 import tglg from '../assets/Projects/tglg.png'
 import chatbot from '../assets/Projects/chatbot.jpg'
 import carrental from '../assets/Projects/carrental.png'
+import ats from '../assets/Projects/ats.png'
+import uber from '../assets/Projects/uber.png'
 
 const Projects = () => {
 
@@ -28,6 +30,18 @@ const Projects = () => {
       src: carrental,
       code:'https://github.com/badri-2005/Car_Rental'
 
+    },
+    {
+      id: 5,
+      src: ats,
+      code:'https://github.com/badri-2005/Machine-Learning'
+
+    },
+    {
+      id: 5,
+      src: uber,
+      code:'https://github.com/badri-2005/Machine-Learning'
+
     }
   ]
 
@@ -46,8 +60,8 @@ const Projects = () => {
                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 w-3xl
                 ' />
                 <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href="">Demo</a></button>
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Code</a></button>
+                  {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href="">Demo</a></button> */}
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>
                 </div>
               </div>
             ))

@@ -12,7 +12,7 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-b-gray-500 mt-12  uppercase '>About Me</p>
             </div>
             <p className='text-lg mt-10  text-justify sm:text-xl md:text-xl lg:text-xl'>
-            I am <span className='font-bold'>Badri Narayanan B R</span> from Kondalampatti, Salem. I completed my schooling at Mahendra International School Senior Secondary, Kalipatti, achieving (82%) in my 12th grade and (88%) in my 10th grade. Throughout my academic journey, I have consistently excelled in mathematics and logical reasoning, which strengthened my problem-solving abilities. Additionally, I actively participated in various extracurricular activities, enhancing my leadership and teamwork skills.
+            I am <span className='font-bold'>Badri Narayanan B R</span> from Kondalampatti, Salem. I completed my schooling at Mahendra International School Senior Secondary, Kalipatti, achieving (82%) in my 12th grade and (88%) in my 10th grade. I am currently pursuing my Bachelor's degree in Computer Science and Engineering at Knowledge Institute of Technology, Salem, with a CGPA of 8.56 till my 3rd semester. Throughout my academic journey, I have consistently excelled in mathematics and logical reasoning, which strengthened my problem-solving abilities. Additionally, I actively participated in various extracurricular activities, enhancing my leadership and teamwork skills.
             </p>
             <br />
             <p className='text-xl text-justify hidden md:block lg:block sm:block '>

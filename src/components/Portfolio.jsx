@@ -52,6 +52,11 @@ const Portfolio = () => {
       id:6,
       name:"GEN AI",
       issued:"I18n Solutions"
+    },
+    {
+      id:7,
+      name:"Introduction to Industry 4.0 and Industrial Internet of Things",
+      issued:"NPTEL"
     }
   ];
 
@@ -110,6 +115,36 @@ const Portfolio = () => {
       college: "Sona College of Technology",
       details: "Participated in Logo Redesign event and redesigned the logo which was given by the Jury and selected as a top 8 participants.",
     },
+    {
+      id: 10,
+      name: "Code Quest",
+      college: "Madras Institute of Technology",
+      details: "Participated in Code Quest event and solved 3 problems in 1 hour."
+  },
+  {
+      id: 11,
+      name: "Ninja Coding",
+      college: "Madras Institute of Technology",
+      details: "Participated in Ninja Coding and solved MCQ related to Programming and Algorithms and OS."
+  },
+  {
+      id: 12,
+      name: "Call of Query",
+      college: "Madras Institute of Technology",
+      details: "Participated in Call of Query and solved MCQ related to DBMS and SQL Queries."
+  },
+  {
+      id: 13,
+      name: "Squid Games",
+      college: "Madras Institute of Technology",
+      details: "Participated in Squid Games and solved MCQ related to DSA , OS , Algorithms and Logical Reasoning."
+  },
+  {
+      id: 14,
+      name: "AI Impromptu",
+      college: "Madras Institute of Technology",
+      details: "Participated in AI Impromptu where using AI we have to create a image on the topic shown by the Jury."
+  },
   ];
 
   return (
@@ -166,7 +201,13 @@ const Portfolio = () => {
                 <ul className="text-white max-h-60 overflow-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-800">
                   {events.map((event) => (
                     <li key={event.id} className="p-2 border-b border-gray-600">
-                      {event.id} - {event.name} - {event.college}
+                      
+                      <span className='font-bold'>Event No :</span> {event.id} <br /><br />
+                      <span className='font-bold'>Event Name :</span> {event.name} <br /><br />
+                      <span className='font-bold'>Event College : </span>{event.college} <br /> <br />
+                      <span className='font-bold'>Event Details : </span>{event.details}
+                      <br />
+                      
                     </li>
                   ))}
                 </ul>
