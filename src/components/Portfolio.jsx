@@ -145,6 +145,12 @@ const Portfolio = () => {
       college: "Madras Institute of Technology",
       details: "Participated in AI Impromptu where using AI we have to create a image on the topic shown by the Jury."
   },
+  {
+    id: 15,
+    name: "Paper Publication",
+    college: "AL Ameen Engineering College",
+    details: "Participated in Paper Publication and published a paper on the topic 'Cancer Sniffer Patch - A Early Way for Detecting Lung Cancer througn VOC."
+},
   ];
 
   return (
