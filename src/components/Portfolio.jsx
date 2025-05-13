@@ -20,6 +20,12 @@ const Portfolio = () => {
         id: 3,
         name: "MKCET Hackathon",
         theme:"SDG - 4 Quality Education"},
+        {
+          id: 4,
+          name: "Accenture Innovation Challenge",
+          theme:"Climate Prediction and Early Warning System - Ideation Phase"},
+
+
   ]
 
   const certifications = [
