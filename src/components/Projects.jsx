@@ -12,7 +12,8 @@ const Projects = () => {
     {
       id: 1,
       src: finquest,
-      code:'https://github.com/Clusters-Config/Fin-Quest'
+      code:'https://github.com/Clusters-Config/Fin-Quest',
+      description : 'Finquest is a comprehensive finance learning platform designed to empower school students and young professionals with essential financial knowledge. It offers a structured learning path, combining interactive lessons, real-life case studies, and personalized quizzes to reinforce understanding. The platform also features gamified learning to boost engagement, practical financial tools for real-world application, personalized progress tracking, and community-driven discussions for collaborative learning. With a user-friendly design and a focus on practical skills, Finquest aims to bridge the gap in financial literacy and prepare users for confident financial decision-making.'
     },
     {
       id: 2,
@@ -45,6 +46,8 @@ const Projects = () => {
     }
   ]
 
+
+
   return (
     <div name='projects' className='w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -62,6 +65,9 @@ const Projects = () => {
                 <div className='flex items-center justify-center'>
                   {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href="">Demo</a></button> */}
                   <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Source Code</a></button>
+                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Description</button>
+
+
                 </div>
               </div>
             ))
