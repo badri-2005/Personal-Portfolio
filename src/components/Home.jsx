@@ -9,10 +9,10 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl mt-20 sm:text-7xl font-bold text-white'>
-                    I'm a Web Developer
+                    I'm a Developer
                 </h2>
                 <p className=' text-gray-400 max-w-md my-1 mt-5 text-justify'>
-                Junior Web Developer | AI Enthusiast | Passionate about building scalable web applications with the MERN stack. Currently honing my skills by working on a full-stack project. Always eager to learn and innovate in the tech space!                </p>
+                Junior Web Developer | AI Enthusiast | Passionate about building scalable web applications with the MERN stack. Currently honing my skills by working on a AI and ML projects. Always eager to learn and innovate in the tech space!                </p>
 
                 <div className='flex  justify-center sm:justify-start md:justify-start lg:justify-start'>
                     {/* group - used to group elements together for styling purposes */}
