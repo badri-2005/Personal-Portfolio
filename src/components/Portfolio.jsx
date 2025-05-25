@@ -32,12 +32,12 @@ const Portfolio = () => {
     {
       id:1,
       name:"The Joy of Computing Using Python",
-      issued:"NPTEL"
+      issued:"NPTEL - Elite"
     },
     {
       id:2,
       name:"Ethical Hacking",
-      issued:"NPTEL"
+      issued:"NPTEL - Elite"
     },
     {
       id:3,
@@ -62,8 +62,23 @@ const Portfolio = () => {
     {
       id:7,
       name:"Introduction to Industry 4.0 and Industrial Internet of Things",
-      issued:"NPTEL"
-    }
+      issued:"NPTEL - Elite + Silver"
+    },
+    {
+      id:8,
+      name:"Python for Data Science",
+      issued:"IBM"
+    },
+    {
+      id:9,
+      name:"HTML & CSS",
+      issued:"GUVI"
+    },
+    {
+      id:10,
+      name:"Python - Basics",
+      issued:"GUVI"
+    },
   ];
 
   const events = [

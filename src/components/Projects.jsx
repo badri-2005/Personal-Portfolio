@@ -1,10 +1,10 @@
 import React from 'react'
 import finquest from '../assets/Projects/finquest.png'
 import tglg from '../assets/Projects/tglg.png'
-import chatbot from '../assets/Projects/chatbot.jpg'
 import carrental from '../assets/Projects/carrental.png'
 import ats from '../assets/Projects/ats.png'
 import uber from '../assets/Projects/uber.png'
+import textsummarizer from '../assets/Projects/textsummarizer.png'
 
 const Projects = () => {
 
@@ -17,8 +17,8 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: chatbot,
-      code:'https://github.com/badri-2005/Chat-Bot'
+      src: textsummarizer,
+      code:'https://github.com/badri-2005/Machine-Learning'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Projects = () => {
 
     },
     {
-      id: 5,
+      id: 6,
       src: uber,
       code:'https://github.com/badri-2005/Machine-Learning'
 
