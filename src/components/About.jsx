@@ -20,7 +20,7 @@ const About = () => {
             </p>
 
             <div className='flex flex-row justify-between items-center mt-10 m-4  lg:hidden'>
-                <a href="https://www.linkedin.com/in/badri-narayanan-6b1b5b1b6/" target='_blank' rel='noreferrer'>
+                <a href="https://www.linkedin.com/in/badri-narayanan-b-r-8ab5a6246/" target='_blank' rel='noreferrer'>
                 <FaGithub size={30} />
                 </a>
                 <a href="https://github.com/badri-2005" target='_blank'>
@@ -29,7 +29,7 @@ const About = () => {
                 <a href="tel:+918838271155" target='_blank'>
                 <FaPhoneSquare size={30} />
                 </a>
-                <a href="/Badri-Resume.pdf" download="Badri-Resume.pdf">
+                <a href="/BadriNarayanan-Resume.pdf" download="BadriNarayanan-Resume.pdf">
                 <BsFillPersonLinesFill size={30} />
                 </a>
             </div>
