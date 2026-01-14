@@ -24,6 +24,14 @@ const Portfolio = () => {
           id: 4,
           name: "Accenture Innovation Challenge",
           theme:"Climate Prediction and Early Warning System - Ideation Phase"},
+          {
+        id: 5,
+        name: "DevSpark - KPRIET",
+        theme:"SDG - 4 Quality Education"},
+        {
+      id: 6,
+      name: "MSME Idea Hackathon 5.0",
+      theme:"Low Carbon Footprint Solution"},
 
 
   ]
