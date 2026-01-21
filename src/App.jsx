@@ -1,28 +1,28 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import SocialLinks from './components/SocialLinks';
-import About from './components/About';
-import Projects from './components/Projects';
-import Portfolio from './components/Portfolio';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-const App = () => {
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+
+function App() {
   return (
-    <div>
-        <Navbar />
-        <Home />
-        <About />
-        <Projects />
-        <Portfolio />
-        <Skills />
-        <Contact />
+    <>
+      <Navbar />
 
-
-        <SocialLinks />
-    </div>
-  )
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
+  );
 }
-
 
 export default App;

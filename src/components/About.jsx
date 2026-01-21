@@ -10,7 +10,7 @@ const About = () => {
     */
     <div 
       name="about" 
-      className="relative z-0 w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white py-10 sm:py-20"
+      className="relative z-0 w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white py-10 sm:py-20 mt-8"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         
