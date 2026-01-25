@@ -10,13 +10,17 @@ const Skills = () => {
         { name: "React JS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", style: "shadow-blue-500" },
         { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", style: "shadow-blue-500" },
         { name: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", style: "shadow-blue-500" },
-        { name: "C", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", style: "shadow-blue-500" },
+        // { name: "C", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", style: "shadow-blue-500" },
         { name: "Git & Github", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", style: "shadow-blue-500" },
         { name: "MySQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", style: "shadow-blue-500" },
         { name: "Postman", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", style: "shadow-blue-500" },
-        { name: "Docker", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", style: "shadow-blue-500" },
+        // { name: "Docker", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", style: "shadow-blue-500" },
         { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", style: "shadow-blue-500" },
-        // { name: "Canva", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg", style: "shadow-blue-500" },
+        { name: "Node JS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", style: "shadow-blue-500" },
+        { name: "Express JS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", style: "shadow-blue-500" },
+                // { name: "Power BI", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg", style: "shadow-blue-500" },
+
+
     ];
 
     return (
