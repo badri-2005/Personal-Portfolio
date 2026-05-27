@@ -19,7 +19,7 @@ const Navbar = () => {
           className="text-4xl bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent"
           style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
         >
-          Badri's Portfolio
+          Badri's Space
         </h1>
       </div>
 
