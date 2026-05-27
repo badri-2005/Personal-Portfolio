@@ -52,7 +52,7 @@ const About = () => {
                     <div>
                       <h3 className="text-xl sm:text-2xl font-bold text-white leading-tight">Knowledge Institute of Technology</h3>
                       <p className="text-cyan-300 text-sm sm:text-base font-medium mt-1">B.E. Computer Science and Engineering</p>
-                      <p className="text-gray-300 mt-1 text-sm italic">CGPA: 8.56 (Up to 4th Semester)</p>
+                      <p className="text-gray-300 mt-1 text-sm italic">CGPA: 8.56 (Up to 5th Semester)</p>
                     </div>
                     <div className="text-xs sm:text-sm font-mono text-cyan-200 bg-black/40 px-3 py-1 rounded-full border border-cyan-900/60 w-fit">
                       2023 - 2027
