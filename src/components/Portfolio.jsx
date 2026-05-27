@@ -418,10 +418,7 @@ const Portfolio = () => {
                         )}
 
                         <div className="p-4">
-                          <h4 className="font-semibold text-base leading-tight">{item.title}</h4>
-                          <p className="text-sm text-gray-300 mt-2">
-                            Certificate earned in {semesterGroup.semester} through participation, learning, internship, or technical events.
-                          </p>
+                          <h4 className="font-bold text-lg leading-tight text-center">{item.title}</h4>
                         </div>
                       </a>
                     );
