@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React from "react";
 import { FaHouse, FaUser, FaCode, FaBriefcase, FaLaptopCode, FaEnvelope } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-
   const links = [
     { id: 1, label: "Home", path: "/", icon: FaHouse },
     { id: 2, label: "About", path: "/about", icon: FaUser },
@@ -27,14 +24,14 @@ const Navbar = () => {
       </div>
 
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[92%] md:w-auto bg-black/80 backdrop-blur-md border border-cyan-900/50 rounded-2xl px-4 py-3 z-50">
-        <ul className="hidden md:flex items-center gap-2">
+        <ul className="flex items-center justify-between md:justify-center gap-1 sm:gap-2">
           {links.map(({ id, label, path, icon: Icon }) => (
             <li key={id}>
               <NavLink
                 to={path}
                 title={label}
                 className={({ isActive }) =>
-                  `w-11 h-11 flex items-center justify-center rounded-xl text-lg transition duration-300 ${
+                  `w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center rounded-xl text-base sm:text-lg transition duration-300 ${
                     isActive
                       ? "text-cyan-300 bg-cyan-900/40"
                       : "text-gray-300 hover:text-cyan-300 hover:bg-cyan-900/20"
@@ -46,36 +43,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        <div
-          onClick={() => setNav(!nav)}
-          className="cursor-pointer z-50 text-gray-300 md:hidden px-2"
-        >
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-        </div>
-
-        {nav && (
-          <ul className="flex flex-col justify-center items-center gap-5 absolute bottom-20 left-1/2 -translate-x-1/2 w-[85%] rounded-2xl py-8 bg-gradient-to-b from-black to-gray-800 border border-cyan-900/50 md:hidden">
-            {links.map(({ id, label, path, icon: Icon }) => (
-              <li key={id}>
-                <NavLink
-                  to={path}
-                  onClick={() => setNav(false)}
-                  title={label}
-                  className={({ isActive }) =>
-                    `w-14 h-14 rounded-xl flex items-center justify-center text-2xl transition duration-300 ${
-                      isActive
-                        ? "text-cyan-300 bg-cyan-900/40"
-                        : "text-gray-300 hover:text-cyan-300 hover:bg-cyan-900/20"
-                    }`
-                  }
-                >
-                  <Icon />
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        )}
       </div>
     </>
   );
