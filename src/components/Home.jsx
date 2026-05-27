@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../assets/Portfolio/image1.jpg";
+import image1 from "../assets/Portfolio/Badri-Photo.png";
 import { FaLinkedin, FaGithub, FaPhoneSquare } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -73,7 +73,7 @@ const Home = () => {
           <img
             src={image1}
             alt="profile"
-            className="rounded-2xl w-48 sm:w-60 md:w-72 shadow-xl shadow-gray-900"
+            className="rounded-full w-64 sm:w-72 md:w-80 lg:w-100 object-cover  "
           />
         </div>
 

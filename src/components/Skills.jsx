@@ -27,7 +27,12 @@ const Skills = () => {
         <div name='skills' className='bg-gradient-to-b from-black to-gray-800 w-full min-h-screen mt-20'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500 uppercase'>Skills</p>
+                    <p
+                        className='text-4xl font-bold inline border-b-4 border-gray-500 uppercase'
+                        style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
+                    >
+                        Skills
+                    </p>
                     <p className='py-6'>These are the technologies I've worked with!</p>
                 </div>
 

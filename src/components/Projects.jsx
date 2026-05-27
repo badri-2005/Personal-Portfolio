@@ -54,48 +54,54 @@ const Projects = () => {
   }
 
   return (
-    <div name='projects' className='w-full h-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+    <div name='projects' className='w-full min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-950 text-white pt-28 pb-32'>
+      <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full'>
         
-        <div className='pb-8 mt-24 lg:mt-56 sm:mt-56'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500 uppercase'>Projects</p>
-          <p className='py-6'>Check out some of my work right here</p>
+        <div className='pb-8'>
+          <p
+            className='text-4xl md:text-5xl font-bold inline border-b-4 border-cyan-500 uppercase'
+            style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
+          >
+            Projects
+          </p>
+          <p className='py-6 text-gray-300'>Check out some of my work right here</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:p-0 mb-10'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-8 px-2 sm:px-0 mb-10'>
           {
             projectworks.map(({ id, src, code, description }) => (
-              <div key={id} className='shadow-md shadow-gray-600 rounded-lg p-2'>
+              <div key={id} className='group bg-gray-900/60 border border-gray-700/70 shadow-lg shadow-black/40 rounded-2xl overflow-hidden hover:-translate-y-1 hover:shadow-cyan-900/30 transition duration-300'>
                 
                 <img 
                   src={src} 
                   alt="project" 
-                  className='rounded-md duration-200 hover:scale-105 w-full'
+                  className='h-52 w-full object-cover duration-300 group-hover:scale-105'
                 />
 
-                <div className='flex items-center justify-center'>
-                  <button className='w-1/2 px-4 py-2 m-2 duration-200 hover:scale-105'>
+                <div className='p-4'>
+                  <p className='text-sm text-cyan-300 font-semibold mb-3'>Project {id}</p>
+
+                  <div className='flex items-center justify-center gap-2'>
+                    <button className='w-1/2 px-4 py-2 rounded-lg bg-cyan-500/15 border border-cyan-500/40 text-cyan-200 duration-200 hover:bg-cyan-500/30'>
                     <a href={code} target="_blank" rel="noopener noreferrer">
                       Source Code
                     </a>
-                  </button>
+                    </button>
 
-                  <button 
-                    className='w-1/2 px-4 py-2 m-2 duration-200 hover:scale-105'
-                    onClick={() => toggleDescription(id)}
-                  >
-                    Description
-                  </button>
-                </div>
+                    <button 
+                      className='w-1/2 px-4 py-2 rounded-lg bg-blue-500/15 border border-blue-500/40 text-blue-200 duration-200 hover:bg-blue-500/30'
+                      onClick={() => toggleDescription(id)}
+                    >
+                      {activeId === id ? 'Hide Details' : 'Description'}
+                    </button>
+                  </div>
 
-                {/* Description Panel */}
-                {
-                  activeId === id && (
-                    <div className='bg-gray-900 text-sm text-gray-300 p-3 rounded-md mt-2'>
+                  {activeId === id && (
+                    <div className='bg-black/40 border border-gray-700 text-sm text-gray-300 p-3 rounded-lg mt-3 leading-relaxed'>
                       {description}
                     </div>
-                  )
-                }
+                  )}
+                </div>
 
               </div>
             ))
