@@ -22,7 +22,7 @@ const Home = () => {
           </h1>
 
           <h2 className="text-xl sm:text-2xl font-semibold text-cyan-400">
-            Aspiring Web Dev & Data Analyst
+            Aspiring Web Dev & Data Engineer
           </h2>
 
           <p className="text-gray-400 max-w-md leading-relaxed text-justify text-sm sm:text-base">
