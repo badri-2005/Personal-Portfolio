@@ -11,14 +11,17 @@ const Skills = () => {
         { name: "Java", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", style: "shadow-blue-500" },
         { name: "Python", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", style: "shadow-blue-500" },
         // { name: "C", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", style: "shadow-blue-500" },
-        { name: "Git & Github", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", style: "shadow-blue-500" },
+        { name: "Git", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", style: "shadow-blue-500" },
         { name: "MySQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", style: "shadow-blue-500" },
         { name: "Postman", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", style: "shadow-blue-500" },
+        { name: "Swagger", src: "https://cdn.simpleicons.org/swagger/85EA2D", style: "shadow-blue-500" },
+        { name: "Linux", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg", style: "shadow-blue-500" },
         // { name: "Docker", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", style: "shadow-blue-500" },
         { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", style: "shadow-blue-500" },
+        { name: "GitHub", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", style: "shadow-blue-500" },
         { name: "Node JS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", style: "shadow-blue-500" },
         { name: "Express JS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", style: "shadow-blue-500" },
-                // { name: "Power BI", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg", style: "shadow-blue-500" },
+        { name: "VS Code", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", style: "shadow-blue-500" },
 
 
     ];
@@ -28,7 +31,7 @@ const Skills = () => {
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div>
                     <p
-                        className='text-4xl font-bold inline border-b-4 border-gray-500 uppercase'
+                        className='text-4xl font-bold inline border-b-4 border-cyan-500 uppercase'
                         style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
                     >
                         Skills

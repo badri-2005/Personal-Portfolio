@@ -1,5 +1,9 @@
 import React from 'react';
 import { FaUniversity, FaSchool, FaGraduationCap } from 'react-icons/fa';
+import workshopImage from '../assets/workshop.jpeg';
+import workshopImage2 from '../assets/workshop2.jpeg';
+import msmeImage1 from '../assets/msme.jpg';
+import msmeImage2 from '../assets/msme2.jpg';
 
 const About = () => {
   return (
@@ -10,7 +14,7 @@ const About = () => {
       <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4 sm:pb-8">
           <p
-            className="text-3xl sm:text-4xl font-bold inline border-b-4 border-gray-500 uppercase"
+            className="text-3xl sm:text-4xl font-bold inline border-b-4  border-cyan-500 uppercase"
             style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
           >
             About Me
@@ -149,6 +153,16 @@ const About = () => {
                 </div>
 
                 <div className="bg-black/30 border border-gray-700 rounded-xl p-4 sm:p-4">
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+                    <div>
+                      <h3 className="text-lg font-semibold text-white">DOS Member</h3>
+                      <p className="text-blue-300 text-sm">Descience OpenSource Club</p>
+                    </div>
+                    <p className="text-gray-300 text-sm sm:text-right whitespace-nowrap">January 2026 - Present</p>
+                  </div>
+                </div>
+
+                <div className="bg-black/30 border border-gray-700 rounded-xl p-4 sm:p-4">
                   <h3 className="text-lg font-semibold text-white mb-3">Rotaract</h3>
                   <div className="space-y-2">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
@@ -169,6 +183,59 @@ const About = () => {
             </div>
           </section>
         </div>
+
+        <section className="mt-8 relative overflow-hidden rounded-2xl border border-emerald-700/35 bg-gray-900/45 backdrop-blur-sm p-4 sm:p-6 shadow-[0_0_0_1px_rgba(16,185,129,0.08)]">
+          <div className="absolute -top-10 -right-10 h-28 w-28 rounded-full bg-emerald-500/10 blur-2xl" />
+          <div className="relative">
+            <p className="text-2xl sm:text-3xl font-bold uppercase tracking-wider border-b-2 border-emerald-700/50 inline-block mb-5">
+              Achievements
+            </p>
+
+            <div className="bg-black/30 border border-gray-700 rounded-xl p-4 sm:p-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                <img
+                  src={workshopImage}
+                  alt="Code to Career workshop achievement"
+                  className="w-full h-52 object-cover rounded-lg border border-gray-700"
+                />
+                <img
+                  src={workshopImage2}
+                  alt="Code to Career workshop session"
+                  className="w-full h-52 object-cover rounded-lg border border-gray-700"
+                />
+              </div>
+              <h3 className="text-lg sm:text-xl font-semibold text-white">Technical Speaker - Code to Career Workshop</h3>
+              <p className="text-emerald-300 text-sm sm:text-base mt-1">Topic: AI and Data - From Classroom to Career</p>
+              <p className="text-gray-300 text-sm sm:text-base mt-3 leading-relaxed text-justify">
+                Delivered a technical session as a speaker in the workshop <span className="text-white font-semibold">&quot;Code to Career&quot;</span>,
+                where I explained how students can transition from academic learning to industry-ready roles in AI and Data.
+                The session engaged <span className="text-white font-semibold">50+ students</span> from various colleges and domains,
+                reflecting my confidence in public speaking, audience engagement, and technical communication.
+              </p>
+            </div>
+
+            <div className="mt-4">
+              <div className="bg-black/30 border border-gray-700 rounded-xl p-4 sm:p-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                  <img
+                    src={msmeImage1}
+                    alt="MSME Idea Hackathon achievement"
+                    className="w-full h-52 object-cover rounded-lg border border-gray-700"
+                  />
+                  <img
+                    src={msmeImage2}
+                    alt="MSME Idea Hackathon award"
+                    className="w-full h-52 object-cover rounded-lg border border-gray-700"
+                  />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-white">Finalist and Awardee - MSME Idea Hackathon</h3>
+                <p className="text-gray-300 text-sm sm:text-base mt-3 leading-relaxed text-justify">
+                  Selected as a <span className="text-white font-semibold">finalist and awardee</span> in the MSME Idea Hackathon for presenting an innovation-focused solution, demonstrating strong problem-solving, teamwork, and project presentation skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
