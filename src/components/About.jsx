@@ -20,15 +20,16 @@ const About = () => {
         <div className="space-y-4 sm:space-y-6 mt-6 sm:mt-10">
           <p className="text-sm sm:text-lg text-justify leading-relaxed text-gray-300">
             I am <span className="font-bold text-white">Badri Narayanan B R</span> from Kondalampatti, Salem.
-            I completed my schooling at Mahendra International School, consistently excelling in mathematics and logical reasoning.
+            I completed my schooling at Mahendra International School, where I built a strong foundation in mathematics and logical thinking.
             I am currently pursuing my Bachelor&apos;s degree in Computer Science and Engineering at Knowledge Institute of Technology,
-            where I maintain a strong academic record and a passion for technology.
+            and I enjoy turning ideas into practical, real-world tech solutions.
           </p>
 
           <p className="text-sm sm:text-lg text-justify leading-relaxed text-gray-300">
-            My interest lies at the intersection of Development and AI. I am a tech-savvy individual,
-            always eager to learn new technologies and stay updated with industry trends. Beyond technical skills,
-            I have enhanced my leadership and teamwork abilities through various extracurricular activities.
+            I am deeply passionate about <span className="text-white font-semibold">Web Development</span>, and I love building clean, user-friendly applications that people can actually enjoy using.
+            Along with development, I am strongly interested in <span className="text-white font-semibold">data-focused roles</span> such as Data Engineering and Data Analysis, where I can work with pipelines, insights, and decision-making through data.
+            I am also excited about <span className="text-white font-semibold">AI roles</span>, especially where intelligent systems can solve meaningful problems.
+            I am a continuous learner who values teamwork, leadership, and consistent growth through both projects and real-world collaboration.
           </p>
         </div>
 

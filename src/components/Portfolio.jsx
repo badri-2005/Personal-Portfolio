@@ -146,6 +146,16 @@ const Portfolio = () => {
       name:"Python - Basics",
       issued:"GUVI"
     },
+    {
+      id:11,
+      name:"Java - Basics",
+      issued:"HackerRank"
+    },
+    {
+      id:12,
+      name:"Affective Computing",
+      issued:"NPTEL - Elite + Silver"
+    },
   ];
 
   const events = [
@@ -309,7 +319,7 @@ const Portfolio = () => {
           {showEvents && (
             <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
               <div className="bg-gray-900 p-5 rounded-xl border border-cyan-800/60 shadow-2xl shadow-cyan-900/30 max-w-6xl w-[96%]">
-                <h2 className="text-2xl font-bold mb-4 text-center text-cyan-300">Events Participated</h2>
+                <h2 className="text-2xl font-bold mb-4 text-center text-cyan-300">Events <br/> Participated</h2>
                 <div className="max-h-80 overflow-auto rounded-lg border border-gray-700">
                   <table className="w-full text-sm text-left text-gray-200">
                     <thead className="bg-gray-800 text-cyan-200 sticky top-0">
