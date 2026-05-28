@@ -117,7 +117,7 @@ const Projects = () => {
                           className='w-1/2 px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 border border-cyan-300/40 text-black font-bold duration-200 hover:brightness-110 hover:shadow-md hover:shadow-cyan-900/30 focus:outline-none focus:ring-2 focus:ring-cyan-300/45'
                           onClick={() => toggleDescription(id)}
                         >
-                          View Description
+                          Description
                         </button>
                       </div>
                     </div>
